@@ -1,7 +1,7 @@
 # Raspberry Pi Utils
 
 ## Deploy console apps from windows to raspberry
-Transfer files using WinSCP
+Transfer files using WinSCP  
 Command: dotnet publish -c Release
 
 
