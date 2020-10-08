@@ -7,8 +7,9 @@ Command: dotnet publish -c Release
 
 ## 1. PIR.Sensor
 Useful links:
-[PIR Sensor - HC-SR501](https://erelement.com/sensors/pir-sensor?cPath=9_28&zenid=rkqu13tqhksemgsg1tokf4its7)
-[How to connect PIR to the pi](https://www.youtube.com/watch?v=Tw0mG4YtsZk)
+[PIR Sensor - HC-SR501](https://erelement.com/sensors/pir-sensor?cPath=9_28&zenid=rkqu13tqhksemgsg1tokf4its7)  
+[PIR Sensor Grd/Output/VCC](https://www.theengineeringprojects.com/wp-content/uploads/2019/01/Introduction-to-HC-SR501.jpg)  
+[How to connect PIR to the pi](https://www.youtube.com/watch?v=Tw0mG4YtsZk)  
 [RaspPi PINS Image](https://www.raspberrypi-spy.co.uk/wp-content/uploads/2012/06/Raspberry-Pi-GPIO-Header-with-Photo.png)
 
 Don't forget to set the right pin.
