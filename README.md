@@ -12,9 +12,8 @@ Useful links:
 [How to connect PIR to the pi](https://www.youtube.com/watch?v=Tw0mG4YtsZk)  
 [RaspPi PINS Image](https://www.raspberrypi-spy.co.uk/wp-content/uploads/2012/06/Raspberry-Pi-GPIO-Header-with-Photo.png)
 
-Don't forget to set the right pin.
-Nugets:
-Iot.Device.Bindings (1.0.0)
+Don't forget to set the right pin.  
+NuGet:Iot.Device.Bindings (1.0.0)  
 ```c#
 using System;
 using System.Device.Gpio;
@@ -61,9 +60,8 @@ namespace SensorPIR.ConsoleApp
 ```
 
 ## 2. CameraCapture 
-Camera - 5MP, Fisheye Lens,with IR leds, Night Vision - WaveShare RPi Camera (H)
-Nugets:
-Unosquare.Raspberry.IO (0.27.1)
+Camera - 5MP, Fisheye Lens,with IR leds, Night Vision - WaveShare RPi Camera (H)  
+NuGet: Unosquare.Raspberry.IO (0.27.1)  
 ```c#
 using System;
 using System.IO;
@@ -106,3 +104,7 @@ namespace CaptureImage
 ```
 
 ### Used Pi - Raspberry Pi 4 Model B
+More links:  
+[.Net core application cannot run on Linux?](https://stackoverflow.com/questions/51973599/net-core-application-cannot-run-on-linux)  
+[dotnet/iot github source](https://github.com/dotnet/iot) 
+[PIR Sensor Github another source](https://github.com/dotnet/iot/blob/master/src/devices/Hcsr501/README.md)
